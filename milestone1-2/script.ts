@@ -4,13 +4,13 @@ const skillContainer = document.querySelectorAll(".skills")[0] as HTMLDivElement
 
 
 function toggleSkills() {
-    if (skillContainer.style.display === "block") {
-         skillContainer.style.display = "none";
-         skillsButtn.textContent = "Show Skills";
+    if (skillContainer.style.display === "none") {
+         skillContainer.style.display = "block";
+         skillsButtn.textContent = "Hide Skills";
     }
     else {
-        skillContainer.style.display = "block";
-        skillsButtn.textContent = "Hide Skills";
+        skillContainer.style.display = "none";
+        skillsButtn.textContent = "Show Skills";
     }
 }
 

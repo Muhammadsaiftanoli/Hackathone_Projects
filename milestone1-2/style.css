@@ -99,3 +99,23 @@ p {
     text-align: center;
     font-size: 12px;
 }
+
+
+@media only screen and (max-width: 667px) {
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: #ffffff;
+        margin: auto;
+        padding: 2px;
+        /* width: 100%; */
+   }
+
+
+    .resume_main {
+        /* border: 2px solid black; */
+        box-shadow: 5px 5px 5px #5b81b3;
+        background-color: #ffffff;
+        border: 2px solid #5b81b3;
+        width: 100%;
+    }
+}
